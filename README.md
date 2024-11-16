@@ -2,7 +2,7 @@
 
 **Whisper of the Heart** (1995) is a heartwarming coming-of-age animated film produced by **Studio Ghibli** and directed by Yoshifumi Kondō. The film tells the story of a young girl, Shizuku Tsukishima, who discovers her love for writing and her passion for self-expression.
 
-![Whisper of the Heart Movie Poster](https://www.theunfilteredmagazine.com/blog/life-lessons-from-whisper-of-the-heart)
+![Whisper of the Heart Movie Poster]([https://www.theunfilteredmagazine.com/blog/life-lessons-from-whisper-of-the-heart](https://medium.com/otaku-tribune/why-whisper-of-the-heart-is-my-favorite-studio-ghibli-film-b622256aa029))
 
 ---
 
