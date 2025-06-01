@@ -1,0 +1,297 @@
+body {
+  background-color: #F0EEEA;
+  font-family: 'Times New Roman', serif, sans-serif;
+  background-color: #D2E0D3;
+  margin: 20px;
+}
+
+.section {
+  padding: 40px;
+}
+
+/*NAVIGATION*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #97B3AE;
+  padding: 20px 50px;
+  color: #F0EEEA;
+  font-size: 20px;
+  border-radius: 15px;
+  }
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+}
+    
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+    
+.nav-links li a {
+  text-decoration: none;
+  color: #F0EEEA;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+    
+.nav-links li a:hover {
+  color: #D2E0D3;
+}
+
+/*HOME*/
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  gap: 40px;
+  border-radius: 70px 0px 70px 0px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  background-color: #F0EEEA;
+  padding: 50px;
+  margin: 40px auto;
+}
+
+.avatar1 {
+  width: 500px;
+  height: auto;
+}
+
+.home-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.home-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/*ABOUT-ME*/
+.aboutMe-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: 40px;
+  padding: 20px;
+}
+
+.avatar2 {
+  width: 500px;
+  height: auto;
+}
+
+.aboutMe-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/*RESUME*/
+#resumedata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  padding: 15px;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 15px;
+  margin: 5px;
+}
+.obj {
+  background-color: #D2DAE3;
+  border: 5px solid #F0EEEA;
+  font-size: 18px;
+}
+
+.design1 {
+  height: 200px;
+}
+.personalData {
+  background-color: #D6CBBF;
+  border: 5px solid #F0EEEA;
+  font-size: 18px;
+}
+
+.education {
+  background-color: #F0DDD6;
+  border: 5px solid #F0EEEA;
+}
+
+.skills {
+  background-color: #F2C3B9;
+  border: 5px solid #F0EEEA;
+  font-size: 18px;
+}
+
+/*RINN CROCHET INFO*/
+.rinnlogo { 
+  width: 100px;
+}
+
+.business {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  max-width: fit-content;
+}
+
+#rinnInfo {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/*RINN CROCHET SLIDESHOW*/
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.products {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*CONTACTS*/
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #97B3AE;
+  color: white;
+  margin: 0%;
+  border-radius: 15px;
+  padding: 20px 50px;
+}
+
+/*RESPONSIVE WEBSITE*/
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .container,
+  .aboutMe-container,
+  .crochet,
+  #resumedata {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .avatar1, .avatar2 {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .slideshow-container {
+    width: 100%;
+  }
+
+  .business {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card, table {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
